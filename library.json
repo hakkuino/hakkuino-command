@@ -1,0 +1,25 @@
+{
+    "name": "hakkuino-command",
+    "keywords": "ascii, string, command, parser",
+    "description": "Helper to deserialize commands through serial",
+    "authors":
+    {
+        "name": "Nicolas Marsal",
+        "url": ""
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hakkuino/hakkuino-command"
+    },
+    "extern":
+    {
+        "include": "Command"
+    },
+    "dependencies": {
+        "hakkuino-logging":"1.0"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
